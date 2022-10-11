@@ -11,11 +11,28 @@
   </head>
   <body>
     <script>
+      $(function(){
+        $("#nav-placeholder").load("nav.html");
+      });
+      </script>
+      <script>
         $(function(){
-          $("#nav-placeholder").load("nav.html");
+          $("#sidenav-placeholder").load("sidenav.html");
         });
         </script>
-      <div id="nav-placeholder">
+    <div id="nav-placeholder">
+
+    </div>
+    
+    <div class="row mt-2">
+      <div id="sidenav-placeholder" class="col-md-3">
+
+      </div>
+      <div class="col text-center">
+        <p class="h1">Selamat Datang di SIKOLA</p>
+        <p class="h4">Sistem Kelola Pembelajaran</p>
+      </div>
+    </div>
 
     </div>
     <script src="https://code.jquery.com/jquery.min.js"></script>
