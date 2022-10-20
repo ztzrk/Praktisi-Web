@@ -6,10 +6,12 @@
     <title>Sikola | Homepage</title>
     <link rel="stylesheet" href="/Assets/style.css">
     <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="Node.js"></script>
     <script src="https://kit.fontawesome.com/8e03843877.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
   <body>
+    
     <script>
       $(function(){
         $("#nav-placeholder").load("nav.html");
@@ -23,12 +25,21 @@
     <div id="nav-placeholder">
 
     </div>
-    
+
     <div class="row mt-2">
       <div id="sidenav-placeholder" class="col-md-3">
 
       </div>
       <div class="col text-center">
+        <div id="pestContainer"></div>
+  <!-- Model -->
+<div id="myModal" class="modal hide">
+  <div class="modal-content">
+    <h1 id="modalTitle"></h1><br>
+    <span class="close">&times;</span>
+    <p id="modalText"></p>
+  </div>
+</div>
         <p class="h1">Selamat Datang di SIKOLA</p>
         <p class="h4">Sistem Kelola Pembelajaran</p>
       </div>
